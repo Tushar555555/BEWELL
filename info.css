@@ -6,7 +6,7 @@ html
 /* C:\Users\DeLL\OneDrive\Desktop\hackathon\images\stats-background.png */
 body
 {
-    background-image: url("stats-background.png");
+    background-image: url("./stats.jpeg");
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -106,7 +106,8 @@ margin-top: 7%;
 }
 
 .plot
-{
+{ 
+  background-color: transparent;
   margin: auto;
   width: 80%;
   padding: 2% 8%;

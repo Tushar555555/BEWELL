@@ -32,7 +32,7 @@ google.charts.setOnLoadCallback(drawChart);
       ]);
       
         
-        var options = {'title':'COVID Cases Analysis', 'width':1000, 'height':1000};
+        var options = {'title':'COVID Cases Analysis', 'width':1000, 'height':1000, 'backgroundColor':'transparent'};
       
         
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
