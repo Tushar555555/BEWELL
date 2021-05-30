@@ -1,0 +1,167 @@
+#logo-image {
+  margin: 0 20px;
+  height: 100px;
+}
+
+.logo-text {
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.1rem;
+  font-weight:bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem ;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(255, 0, 85);
+}
+ /* navbar ends*/ */
+
+/* banner starts */
+header {
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(./meditaion.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner-center {
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18%;
+    padding-right: 12%;
+}
+
+.banner-center h1 {
+    font-size: 26px;
+}
+/* banner end */
+
+.btn {
+background: #d9b034;
+background-image: -webkit-linear-gradient(top, #d9b034, #b8742b);
+background-image: -moz-linear-gradient(top, #d9b034, #b8742b);
+background-image: -ms-linear-gradient(top, #d9b034, #b8742b);
+background-image: -o-linear-gradient(top, #d9b034, #b8742b);
+background-image: linear-gradient(to bottom, #d9b034, #b8742b);
+-webkit-border-radius: 28;
+-moz-border-radius: 28;
+border-radius: 28px;
+font-family: Arial;
+color: #ffffff;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+border: solid #8c601f 2px;
+text-decoration: none;
+}
+
+.btn:hover {
+background: #fc7f3c;
+background-image: -webkit-linear-gradient(top, #fc7f3c, #d96034);
+background-image: -moz-linear-gradient(top, #fc7f3c, #d96034);
+background-image: -ms-linear-gradient(top, #fc7f3c, #d96034);
+background-image: -o-linear-gradient(top, #fc7f3c, #d96034);
+background-image: linear-gradient(to bottom, #fc7f3c, #d96034);
+text-decoration: none;
+}
+
+img{
+height: 200px;
+}
+
+@media (min-width: 500px){
+.banner-center h1 {
+    font-size: 16px;
+}
+.btn{
+    font-size: 16px;
+}
+}
+@media (min-width: 600px){
+    .banner-center h1 {
+    font-size: 17px;
+}
+.btn{
+    font-size: 17px;
+}
+}
+@media (min-width: 700px){
+    .banner-center h1 {
+    font-size: 18px;
+}
+.btn{
+    font-size: 18px;
+}
+}
+@media (min-width: 850px){
+    .banner-center h1 {
+    font-size: 20px;
+}
+.btn{
+    font-size: 20px;
+}
+}
+@media (min-width: 1000px){
+    .banner-center h1 {
+    font-size: 22px;
+}
+.btn{
+    font-size: 21px;
+}
+}
+@media (min-width: 1200px){
+    .banner-center h1 {
+    font-size: 24px;
+}
+.btn{
+    font-size: 22px;
+}
+}
